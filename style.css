@@ -1,0 +1,76 @@
+body {
+  overflow: hidden;
+}
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 8px 5px;
+  overflow: hidden;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.save {
+  padding: 11px;
+}
+
+#splitContainer {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+}
+
+.CodeMirror {
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: normal;
+  display: block;
+  width: 100%;
+  background: transparent;
+}
+.CodeMirror, .CodeMirror-gutters {
+  height: 100%!important;
+}
+.lint-error {
+  font-family: arial;
+  font-size: 70%;
+  background: #ffa;
+  color: #a00;
+  padding: 2px 5px 3px;
+}
+.lint-error-icon {
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 0 3px;
+  margin-right: 7px;
+}
+.editor-container {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+.editor-container > * {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  resize: none;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
