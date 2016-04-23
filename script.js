@@ -139,8 +139,8 @@ $("[data-action=save]").click(function() {
 //    $("[data-action=saved]").text(e.html_url)
 //    $("[data-action=saved]").attr("href", e.html_url)
 //                            .attr("target", "_blank")
-    $("[data-action=saved]").text(document.domain + hash)
-    $("[data-action=saved]").attr("href", document.domain + hash)
+    $("[data-action=saved]").text(document.domain + "/#" + hash)
+    $("[data-action=saved]").attr("href", document.domain + "/#" + hash)
                             .attr("target", "_blank")
   })
   .error(function(e) {
