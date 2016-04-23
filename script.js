@@ -136,8 +136,11 @@ $("[data-action=save]").click(function() {
   .success(function(e) {
     window.location.hash = e.html_url.split("https://gist.github.com/").join("")
     hash = window.location.hash.replace(/#/g,"")
-    $("[data-action=saved]").text(e.html_url)
-    $("[data-action=saved]").attr("href", e.html_url)
+//    $("[data-action=saved]").text(e.html_url)
+//    $("[data-action=saved]").attr("href", e.html_url)
+//                            .attr("target", "_blank")
+    $("[data-action=saved]").text(document.domain + hash)
+    $("[data-action=saved]").attr("href", document.domain + hash)
                             .attr("target", "_blank")
   })
   .error(function(e) {
