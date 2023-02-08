@@ -2,26 +2,9 @@ body {
   overflow: hidden;
 }
 
-header {
-  position: absolute;
-  left: 0;
-  right: 0;
-  padding: 8px 5px;
-  overflow: hidden;
-}
-.fl {
-  float: left;
-}
-.fr {
-  float: right;
-}
-.save {
-  padding: 11px;
-}
-
 #splitContainer {
   position: absolute;
-  top: 40px;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
