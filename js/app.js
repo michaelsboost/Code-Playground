@@ -87,7 +87,7 @@ updatePreview = () => {
   var previewFrame = document.getElementById("preview")
   var preview      =  previewFrame.contentDocument ||  previewFrame.contentWindow.document
   preview.open()
-  preview.write(`<!DOCTYPE html>\n<html>\n  <head>\n    <title>a sample title</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"initial-scale=1.0\">\n    <meta name=\"description\" content=\"A sample description\">\n    <link rel="stylesheet" href="libraries/normalize/normalize.css" />\n    <style>\n${cssEditor.getValue()}\n    </style>\n  </head>\n  <body>\n${htmlEditor.getValue()}\n\n    <script>\n      ${jsEditor.getValue()}\n    </script>\n  </body>\n</html>`)
+  preview.write(`<!DOCTYPE html>\n<html>\n  <head>\n    <title>a sample title</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"initial-scale=1.0\">\n    <meta name=\"description\" content=\"A sample description\">\n    <link rel="stylesheet" href="libraries/normalize/normalize.css" />\n    <link rel="stylesheet" href="libraries/font-awesome/css/all.min.css" />\n    <style>\n${cssEditor.getValue()}\n    </style>\n  </head>\n  <body>\n${htmlEditor.getValue()}\n\n    <script>\n      ${jsEditor.getValue()}\n    </script>\n  </body>\n</html>`)
   preview.close()
 }
 setTimeout(updatePreview, 300)

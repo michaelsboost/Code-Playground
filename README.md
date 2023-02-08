@@ -13,11 +13,13 @@ Tech
 
 Code Playground uses a number of open source projects to work properly:
 
+* [Normalize](http://necolas.github.io/normalize.css/) - makes browsers render all elements more consistently
 * [jQuery](http://jquery.com/) - duh
 * [JQWidgets](http://www.jqwidgets.com/jquery-widgets-demo/demos/jqxsplitter/index.htm#demos/jqxsplitter/nested-splitters.htm) - awesome plugin for resizable columns
 * [Codemirror](http://codemirror.net/) - awesome web-based text editor
 * [Inlet](https://github.com/mikethedj4/Inlet) - awesome inline color picker and numeric slider for Codemirror
 * [Emmet](http://emmet.io/) - Codemirror Plugin for Zen Coding
+* [Font Awesome 5](http://fontawesome.com/) - a popular icon library and toolkit
 
 Development
 -------------
